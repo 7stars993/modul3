@@ -328,10 +328,3 @@ TABEL: distributions
 | status          | enum('diproses','diterima')    | Status distribusi                    |
 | created_at      | timestamp                      | Waktu pencatatan distribusi          |
 
-TABEL: donations
-| Field           | Type           | Description                              |
-|-----------------|----------------|------------------------------------------|
-| id              | int(11)        | ID unik donasi (Primary Key)             |
-| jumlah          | decimal(15,2)  | Nilai donasi                             |
-| donor_name      | varchar(255)   | Nama pendonor                            |
-| tanggal_donasi  | timestamp      | Waktu donasi dilakukan                   |
